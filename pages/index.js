@@ -8,7 +8,7 @@ function Home() {
     <div className='bg-cream'>
       <main className='flex items-center justify-center min-w-min min-h-screen p-4'>
         {/* Product Card */}
-        <div className='bg-white rounded-lg overflow-hidden max-w-sm md:max-w-[37.5rem] md:flex'>
+        <div className='bg-white rounded-lg overflow-hidden max-w-sm md:max-w-[37.5rem] md:flex anim-zoomIn'>
           {/* Product Image */}
           <picture className='h-60 basis-2/4 block md:h-auto overflow-hidden'>
             <div className='hidden md:flex'>
@@ -20,7 +20,7 @@ function Home() {
           </picture>
 
           {/* Body Card */}
-          <div className='p-6 basis-2/4 md:p-8 space-y-5'>
+          <div className='p-6 basis-2/4 md:p-8 space-y-5 anim-fadeIn'>
             <div className='font-Montserrat tracking-[.31rem] text-Grayish text-xs opacity-80'>
               PERFUME
             </div>
